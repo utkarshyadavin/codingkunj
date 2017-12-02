@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.police.Register">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/stationname"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="PoliceStationName"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+        <EditText
+            android:id="@+id/stationcode"
+            android:layout_width="383dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:hint="StationCode"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <EditText
+            android:id="@+id/latitude"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Latitude"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <EditText
+            android:id="@+id/longitude"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Longitude"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="194dp" />
+        <EditText
+            android:id="@+id/contactnumber"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ContactNumber"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="194dp" />
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="257dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

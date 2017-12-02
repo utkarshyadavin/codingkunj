@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1000778363467",
+    "firebase_url": "https://policeapp-f8d4a.firebaseio.com",
+    "project_id": "policeapp-f8d4a",
+    "storage_bucket": "policeapp-f8d4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000778363467:android:71020f68c36a5093",
+        "android_client_info": {
+          "package_name": "com.example.hp.police"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000778363467-jb4r5h5q6l2pqaik7198ane0tk5mui9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Fhfg_XxakD8NBoptLvm99SscRKIq_L0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
