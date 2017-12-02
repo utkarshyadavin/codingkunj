@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "820020495177",
+    "firebase_url": "https://policeapp-6ce39.firebaseio.com",
+    "project_id": "policeapp-6ce39",
+    "storage_bucket": "policeapp-6ce39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820020495177:android:88c0f7f2f424067c",
+        "android_client_info": {
+          "package_name": "com.example.abhi.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820020495177-mkf8mlupao705m0kt8q9ir2m1nvo7ppa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIbj7jmbpMMM5UEJ-Qj8GtP_wiOq9rUrI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
