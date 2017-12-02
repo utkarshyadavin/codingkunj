@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mydost.ChildHelpline">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/childlabour"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/homepagebuttonshape"
+            android:text="Child Labour" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/childharassment"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/homepagebuttonshape"
+                android:text="Child Harassment" />
+
+            <Button
+                android:id="@+id/reportaschool"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/homepagebuttonshape"
+                android:text="Report a School" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reportanorphanage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/homepagebuttonshape"
+            android:text="Report an Orphanage" />
+
+        <Button
+            android:id="@+id/reportahospital"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/homepagebuttonshape"
+            android:text="Report a Hospital" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
