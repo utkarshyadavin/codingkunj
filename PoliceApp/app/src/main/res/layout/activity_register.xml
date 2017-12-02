@@ -5,77 +5,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hp.police.Register">
+    tools:context="com.example.hp.police.Register"
+    android:background="#000000">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-        android:orientation="vertical">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
 
 
         <EditText
             android:id="@+id/stationname"
-            android:layout_width="391dp"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
             android:ems="10"
             android:hint="PoliceStationName"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="16dp" />
+            tools:layout_editor_absoluteY="16dp"
+            android:textColorHint="#DDCFD0"
+            android:background="@drawable/texteditdrwable"
+            android:textColor="#DDCFD0"/>
 
 
         <EditText
             android:id="@+id/stationcode"
-            android:layout_width="383dp"
-            android:layout_height="51dp"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
             android:ems="10"
             android:hint="StationCode"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="2dp"
-            tools:layout_editor_absoluteY="76dp" />
+            tools:layout_editor_absoluteY="76dp"
+            android:textColorHint="#DDCFD0"
+            android:background="@drawable/texteditdrwable"
+            android:layout_marginTop="20dp"
+            android:textColor="#DDCFD0"/>
 
         <EditText
             android:id="@+id/latitude"
-            android:layout_width="383dp"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
             android:ems="10"
             android:hint="Latitude"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="137dp" />
+            tools:layout_editor_absoluteY="137dp"
+            android:textColorHint="#DDCFD0"
+            android:background="@drawable/texteditdrwable"
+            android:layout_marginTop="20dp"
+            android:textColor="#DDCFD0"/>
 
         <EditText
             android:id="@+id/longitude"
-            android:layout_width="387dp"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
             android:ems="10"
             android:hint="Longitude"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="194dp" />
+            tools:layout_editor_absoluteY="194dp"
+            android:textColorHint="#DDCFD0"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/texteditdrwable"
+            android:textColor="#DDCFD0"/>
         <EditText
             android:id="@+id/contactnumber"
-            android:layout_width="387dp"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
             android:ems="10"
             android:hint="ContactNumber"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="194dp" />
+            tools:layout_editor_absoluteY="194dp"
+            android:textColorHint="#DDCFD0"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/texteditdrwable"
+            android:textColor="#DDCFD0"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
         <Button
             android:id="@+id/register"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Register"
             tools:layout_editor_absoluteX="147dp"
-            tools:layout_editor_absoluteY="257dp" />
-
-
-
-
-
-
-
-    </LinearLayout>
+            tools:layout_editor_absoluteY="257dp"
+            android:background="@drawable/buttondrwable"
+            android:textSize="20dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+            </LinearLayout>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
