@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhi.doctor.RegisterActivity"
+    android:background="#228956">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:textColorHint="#8e8d8d"
+                android:background="#dbd6d7"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:layout_marginTop="15dp"
+                android:inputType="textPersonName"
+                android:hint="UserName"
+                android:textColorHint="#8e8d8d"
+                android:background="#dbd6d7"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:layout_marginTop="15dp"
+                android:inputType="textPersonName"
+                android:hint="Password"
+                android:textColorHint="#8e8d8d"
+                android:background="#dbd6d7"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <EditText
+                android:id="@+id/expertise"
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:textColorHint="#8e8d8d"
+                android:layout_marginTop="15dp"
+                android:background="#dbd6d7"
+                android:inputType="textPersonName"
+                android:hint="Expertise"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="217dp" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Age"
+                android:textColorHint="#8e8d8d"
+                android:background="#dbd6d7"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:textSize="16dp"
+                        android:padding="15dp"
+                        android:text="REGISTER"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center"
+                        android:background="#092d08"
+                        android:id="@+id/register"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

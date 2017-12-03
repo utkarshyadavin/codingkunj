@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1036390506932",
+    "firebase_url": "https://awesome-chat-1469e.firebaseio.com",
+    "project_id": "awesome-chat-1469e",
+    "storage_bucket": "awesome-chat-1469e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036390506932:android:a66b7986bede9c91",
+        "android_client_info": {
+          "package_name": "com.example.android.mydost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036390506932-9a7uph6t38kr18n5jko3nrgjdfjegren.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArt1QpXJO1HWCGEtCI77shRUv0Xp3RTPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036390506932:android:88c0f7f2f424067c",
+        "android_client_info": {
+          "package_name": "com.example.abhi.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036390506932-9a7uph6t38kr18n5jko3nrgjdfjegren.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArt1QpXJO1HWCGEtCI77shRUv0Xp3RTPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
